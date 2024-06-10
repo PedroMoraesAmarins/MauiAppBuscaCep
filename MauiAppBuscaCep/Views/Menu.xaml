@@ -8,10 +8,10 @@
 
         <Label HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" Text="API Busca Cep"/>
 
-        <Button Margin="0, 10, 0 ,0" Grid.Row="0" HeightRequest="50" Grid.Column="0" FontSize="Small" Text="Buscar Cep" Clicked="Button_Clicked_buscacep"/>
-        <Button Grid.Row="1" HeightRequest="50" Grid.Column="1" FontSize="Small" Text="Buscar Bairro" Clicked="Button_Clicked_buscabairro" />
-        <Button Grid.Row="2" HeightRequest="50" Grid.Column="0" FontSize="Small" Text="Buscar Ruas do Bairro" Clicked="Button_Clicked_buscarua"/>
-        <Button Grid.Row="3" HeightRequest="50" Grid.Column="0" FontSize="Small" Text="Buscar Endereço Pelo Cep" Clicked="Button_Clicked_buscaendereco"/>
+        <Button Margin="0, 10, 0 ,0" Grid.Row="0" HeightRequest="50" Grid.Column="0" FontSize="Small" Text="🏙️ Buscar Cep" Clicked="Button_Clicked_buscacep"/>
+        <Button Grid.Row="1" HeightRequest="50" Grid.Column="1" FontSize="Small" Text="​🏡​ Buscar Bairro" Clicked="Button_Clicked_buscabairro" />
+        <Button Grid.Row="2" HeightRequest="50" Grid.Column="0" FontSize="Small" Text="🛣️​ Buscar Ruas do Bairro" Clicked="Button_Clicked_buscarua"/>
+        <Button Grid.Row="3" HeightRequest="50" Grid.Column="0" FontSize="Small" Text="🧭​ Buscar Endereço Pelo Cep" Clicked="Button_Clicked_buscaendereco"/>
     </VerticalStackLayout>
 
 </ContentPage>
