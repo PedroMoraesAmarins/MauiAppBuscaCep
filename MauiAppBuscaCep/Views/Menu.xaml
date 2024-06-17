@@ -6,6 +6,8 @@
 
     <VerticalStackLayout Spacing="10" Padding="10">
 
+        <Image Source="logo_buscacep.png" HeightRequest="230"/>
+
         <Label HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" Text="API Busca Cep"/>
 
         <Button Margin="0, 10, 0 ,0" Grid.Row="0" HeightRequest="50" Grid.Column="0" FontSize="Small" Text="🏙️ Buscar Cep" Clicked="Button_Clicked_buscacep"/>
