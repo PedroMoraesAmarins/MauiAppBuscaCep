@@ -16,7 +16,7 @@ namespace MauiAppBuscaCep.Services
 
             using (HttpClient client = new HttpClient())
             {
-                string url = "https://cep.metoda.com.br/endereco/by-cep?cep=" + cep;
+                string url = "http://localhost:8000endereco/by-cep?cep=" + cep;
 
                 HttpResponseMessage response = await client.GetAsync(url);
 
